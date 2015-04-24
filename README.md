@@ -6,6 +6,23 @@ This is a PostCSS plugin that appends `!important` to every declaration in your 
 
 ![I'm very important](http://media.giphy.com/media/dKpTkya14ysJq/giphy.gif)
 
+## Install
+`npm install --sav-dev mahogany`
+
+## Use it with Gulp
+
+```js
+var postcss = require('gulp-postcss');
+var gulp = require('gulp');
+var mahogany = require('mahogany');
+
+gulp.task('css', function () {
+    return gulp.src('./src/*.css')
+        .pipe(postcss([mahogany()]))
+        .pipe(gulp.dest('./dest'));
+});
+```
+
 ## Examples
 
 ```css
