@@ -1,6 +1,6 @@
 {
   "name": "mahogany",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PostCSS plugin that lets everyone know how important your CSS is",
   "keywords": [
     "postcss",
