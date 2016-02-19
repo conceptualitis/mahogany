@@ -1,23 +1,28 @@
 {
-    "name": "mahogany",
-    "version": "0.0.1",
-    "description": "PostCSS plugin that lets everyone know how important your CSS is",
-    "keywords": ["postcss", "css", "postcssplugin", "important"],
-    "author": "Neil Duffy <neiladuffy@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url":  "https://github.com/conceptualitis/mahogany.git"
-    },
-    "dependencies": {
-        "postcss": "^4.1.5"
-    },
-    "devDependencies": {
-        "gulp-mocha":  "2.0.1",
-        "chai":        "2.2.0",
-        "gulp":        "3.8.11"
-    },
-    "scripts": {
-        "test": "gulp test"
-    }
+  "name": "mahogany",
+  "version": "0.0.1",
+  "description": "PostCSS plugin that lets everyone know how important your CSS is",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcssplugin",
+    "important"
+  ],
+  "author": "Neil Duffy <neiladuffy@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conceptualitis/mahogany.git"
+  },
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "gulp-mocha": "2.0.1",
+    "chai": "2.2.0",
+    "gulp": "3.8.11"
+  },
+  "scripts": {
+    "test": "gulp test"
+  }
 }
